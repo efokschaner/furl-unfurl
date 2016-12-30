@@ -17,7 +17,8 @@ const routes = [
 ]
 
 const router = new VueRouter({
-  routes
+  routes,
+  base: '/furl-unfurl/'
 })
 
 /* eslint-disable no-new */
